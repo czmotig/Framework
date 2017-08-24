@@ -52,6 +52,8 @@
     <Compile Include="Domains\IDomainModel.cs" />
     <Compile Include="IModel.cs" />
     <Compile Include="IValidatableModel.cs" />
+    <Compile Include="Keys\AggregatedKeyTypeProvider.cs" />
+    <Compile Include="Keys\AssemblyQualifiedKeyTypeProvider.cs" />
     <Compile Include="Keys\GuidKey.cs" />
     <Compile Include="Keys\IKey.cs" />
     <Compile Include="Keys\IKeyTypeProvider.cs" />
@@ -65,6 +67,8 @@
     <Compile Include="Keys\KeyBase.cs" />
     <Compile Include="Keys\RequiredNotEmptyKeyException.cs" />
     <Compile Include="Keys\StringKey.cs" />
+    <Compile Include="Keys\TypeFullNameKeyTypeProvider.cs" />
+    <Compile Include="Keys\TypeFullNameWithAssemblyKeyTypeProvider.cs" />
     <Compile Include="Keys\_EnsureConditionExtensions.cs" />
     <Compile Include="Keys\_KeyExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
